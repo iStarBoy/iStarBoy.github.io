@@ -8,7 +8,7 @@
 		<title>吴俊霖经纪为您服务</title>
 		<link href="./resources/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="./resources/css/style.css">
-		<link rel="stylesheet" href="./resource/css/index/index.css">
+		<link rel="stylesheet" href="./resources/css/index/index.css">
 		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
         <script src="./resources/scripts/ie-emulation-modes-warning.js"></script>
@@ -22,15 +22,117 @@
 	<body>
 		<section id="page">
 			<header id="header">
-				<div>
-					<image class="header-background" src=""/>
+
+				<div id="header-background" class="header-background">
+					<image width="100%" src="./images/index/header-background.jpg"/>
 				</div>
+
+				<div id="header-nav" class="header-nav">
+
+					  <p href="./index.html" style="float:left;color:white;font-size:24px;margin-top:10px;"><image height="40px" src="./images/index/star.png"/>StarBoy</p>
+
+					  <a class="contact-me" href="#footer">联系我</a>
+					  <div class="clear"></div>
+				</div>
+
 			</header>
+
 			<section id="body">
-				
+
+				<div id="advantage" class="advantage container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-2 col-xs-6 advantage-title"><image src="./images/index/description1.png"/>价格实惠</div>
+						<div class="col-md-2 col-xs-6 advantage-title"><image src="./images/index/description2.png"/>质量可靠</div>
+						<div class="col-md-2 col-xs-6 advantage-title"><image src="./images/index/description3.png"/>体验更好</div>
+						<div class="col-md-2 col-xs-6 advantage-title"><image src="./images/index/description4.png"/>服务全面</div>
+						<div class="col-md-2"></div>					
+					</div>
+				</div>
+
+				<div id="product-class-1" class="product-class container">
+					<div class="product-class-title text-center">碧桂园山庄</div>
+					<p class="product-class-description text-center">绿语成荫，暗香浮动</p>
+					<div class="houses row"> 
+						<div id="house1" class="house col-md-4">
+							<div class="house-photo">
+								<a style="color:#565A5C" href="./house-content.html">
+									<image width="100%" src="./images/index/house1.jpg"/>
+								</a>
+							</div>
+							<div class="house-title text-center">
+								<a style="color:#565A5C" href="./house-content.html"><h4>茶言阁</h4></a>
+							</div>
+						</div>
+						
+						<div id="house2" class="house col-md-4">
+							<div class="house-photo">
+								<a style="color:#565A5C" href="./house-content.html">
+									<image width="100%" src="./images/index/house1.jpg"/>
+								</a>
+							</div>
+							<div class="house-title  text-center">
+								<a style="color:#565A5C" href="./house-content.html"><h4>茶言阁</h4></a>
+							</div>
+						</div>
+						
+						<div id="house3" class="house col-md-4">
+							<div class="house-photo">
+								<a style="color:#565A5C" href="./house-content.html">
+									<image width="100%" src="./images/index/house1.jpg"/>
+								</a>
+							</div>
+							<div class="house-title text-center">
+								<a style="color:#565A5C" href="./house-content.html"><h4>茶言阁</h4></a>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>	
+					<div class=" btn btn-large btn-block find-more">查看所有在售楼盘</div>
+				</div>
+
 			</section>
+
+            <hr style="height:1px;width:60%;left:20%;border:none;border-top:1px solid gray;" />
+
 			<footer id="footer">
-				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="about col-md-2">
+							<ul class="list-unstyled">
+								<li><a class="h5" href="#">关于我们</a></li>
+								<li><a class="h5" href="#">服务条款</a></li>
+							</ul>
+						</div>
+
+						<div class="service-telephone col-md-2">
+							<ul class="list-unstyled">
+								<li>客服电话：</li>
+								<li>13580001389</li>
+							</ul>
+						</div>
+						
+
+						<div class="online-contact col-md-3">
+							
+							<ul class="list-inline text-center">
+								<li>
+									<p class="text-center h5">关注我们</p>
+								</li>
+								<li>
+									<button class="btn btn-default online-contact" data-toggle="popover" title="QQ" data-content="1254336809" data-placement="left"><image width="20px" src="./images/index/wechat.png"/></button>
+								</li>
+								<li>
+									<button class="btn btn-default online-contact" data-container="body" data-placement="right" data-toggle="popover" data-original-title="微信/Wechat" data-content="Lufuyuan1993"><image width="20px" src="./images/index/QQ.png"/></button>
+								</li>
+							</ul>
+						</div>
+					
+						<div class="clear"></div>
+						<p></p>
+					</div>
+				</div>
 			</footer>
 		</section>
 
@@ -42,6 +144,11 @@
         <script src="./resources/scripts/jquery-2.1.4.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="./resources/scripts/ie10-viewport-bug-workaround.js"></script>
-        <script src="./resource/scripts/bootstrap.min.js"></script>
+        <script src="./resources/scripts/bootstrap.min.js"></script>
+        <script>
+	        $(function(){
+			  $('[data-toggle="popover"]').popover();
+			});
+        </script>
 	</body>
 </html>

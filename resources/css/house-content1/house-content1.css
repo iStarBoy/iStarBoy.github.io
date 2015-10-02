@@ -1,0 +1,35 @@
+body{
+	background: rgb(245,245,245);
+	min-height: 800px;
+}
+div.house-pic{
+	margin: 0 0 20px 0;
+	width: 100%;
+	min-height: 300px;
+	background-color: white;
+}
+div.house-base-info-1{
+	width: 60%;
+	margin-left: 20%;
+}
+div.house-base-info-2{
+	width: 60%;
+	margin-left: 20%;
+}
+div.house-detail-info-1{
+	width: 60%;
+    margin-left: 20%;
+}
+div.house-detail-info-2{
+	width: 60%;
+    margin-left: 20%;
+}
+button.online-contact{
+	background-color:rgb(245,245,245);
+	border:0px;
+
+}
+li.item{
+	margin: 10px 0 10px 0;
+	color: #565A5C;
+}

@@ -1,0 +1,85 @@
+body{
+	background: rgb(245,245,245);
+	min-height: 800px;
+}
+div.header-background{
+	top: 0;
+}
+div.header-nav{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+div.advantage{
+	margin: 30px auto;
+	top: 0;
+}
+div.advantage-title{
+	font-weight:bold;
+	font-size: 18px;
+	font-family: "Microsoft Yahei";
+	color: #666666;
+}
+div.product-class{
+	
+}
+div.product-class-title{
+	
+	font-weight:bold;
+	font-size: 32px;
+	font-family: "华文细黑" ;
+	color: #565A5C;
+	margin: 40px 0 0 0;
+}
+div.product-class-description{
+	font-weight:normal;
+	font-size: 16px;
+	font-family: "华文细黑";
+	color: #565A5C;
+	margin: 0 0 15px 0;
+}
+div.houses{
+	margin: 30px 15% 0 15%;
+	width: 70%;
+}
+
+div.clear{
+	clear: both;
+}
+a.contact-me{
+	margin-right: 10px;
+	float: right;
+	color:white;
+	font-size:24px;
+	background-color:transparent;
+	border: 0px;
+	line-height: 50px;
+}
+div.find-more{
+	font-family: "华文细黑";
+	font-style: bold;
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 250px;
+	color:  #565A5C;
+	background-color: white;
+}
+div.about{
+	float: left;
+}
+div.service-telephone{
+	float: left;
+}
+div.online-contact{
+	float: left;
+}
+button.online-contact{
+	background-color:rgb(245,245,245);
+	border:0px;
+
+}
+footer{
+	bottom: 0px;
+	margin:  30px 0 30px 0;
+}
